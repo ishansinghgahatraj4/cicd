@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TikTok Button</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 100px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #000;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff0050;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Open TikTok</h1>
+    
+    <button onclick="openTikTok()">Go to TikTok</button>
+
+    <script>
+        function openTikTok() {
+            window.open("https://www.tiktok.com", "_blank");
+        }
+    </script>
+
+</body>
+</html>
